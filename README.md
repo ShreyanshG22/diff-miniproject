@@ -8,7 +8,7 @@
 
 # How To Run DIFF:
 
-Run "diff" normally or using options given below
+Run "diff" as __./diff <options> <file1/dir1> <file2/dir2>__ where options are:
 * treat all files as text (-a)
 * ignore space change (-b)
 * ignore blank lines (-B)
@@ -19,10 +19,9 @@ Run "diff" normally or using options given below
 * ignore trailing and leading spaces, tabs and blank lines (-Z)
 * ignore all tabs (-t)
 * help (-h)
-Below is the general command:
-	./diff <options> <file1/dir1> <file2/dir2>
-
+	
 # Description:
+![Datastructure](datastructure.png)
 
 The diff command compares two file and tell the least change to be made to make first file exactly same as the second.
 The project also compares name of files in Directories and compare the files with same names. The comparision of file names is only one layer which means it will not open another directory inside a directory.
@@ -32,13 +31,15 @@ Output without any details of changes can also be viewed using (-q) option.
 There are couple of options provided to compare files by ignoring case changes(-i), space changes(-b), blank line changes(-B), etc.
 (-h) option is provided for further help.
 
+# Datastructure:
+
 # Files Included:
 
 * diff.c - Main code
 * diff.h - header file
 * queue.c - Queue Implementation
 * queue.h - Queue header file
-* Makefile
+* Makefile - Make executable for the project
 * README - This file
 * test - Files on which code was tested
 * screenshots - Results of testing
