@@ -21,7 +21,7 @@ Run "diff" as __./diff <options> <file1/dir1> <file2/dir2>__ where options are:
 * help (-h)
 	
 # Description:
-![Datastructure](datastructure.png)
+![Datastructure](datastructure.jpg)
 
 The diff command compares two file and tell the least change to be made to make first file exactly same as the second.
 The project also compares name of files in Directories and compare the files with same names. The comparision of file names is only one layer which means it will not open another directory inside a directory.
